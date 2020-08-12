@@ -1,8 +1,8 @@
 env:
 - name: DEPLOY_NAMESPACE
-  value: kube-system-production
+  value: kube-system-staging
 pipelineConfig:
   env:
   - name: DEPLOY_NAMESPACE
-    value: kube-system-production
+    value: kube-system-staging
   pipelines: {}
